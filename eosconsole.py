@@ -1,3 +1,6 @@
+
+this is DEPRECATED!!! it has unused and unoptimized code. go use EosTerminalV2
+
 #include <iostream>
 import time as t
 import requests as rq
