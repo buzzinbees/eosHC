@@ -68,9 +68,9 @@ def getInfo1(ip):
         if data.get("proxy") == True:
             print("This domain is a proxy, VPN, or TOR exit address.")
         elif data.get("hosting") == True:
-            print("This domain is a hosting exit address.")
+            print("This domain is a hosting address.")
         elif data.get("mobile") == True:
-            print("This domain is a cellular connection exit address.")
+            print("This domain is a cellular connection address.")
         return
 
     except rq.exceptions.RequestException as err:
