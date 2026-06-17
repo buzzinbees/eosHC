@@ -21,7 +21,7 @@ def checkConnect():
             responseapi.raise_for_status()
             print("Connected to IP-API in", round((t.time() - apiconnect1), 3), "s")
         except responseapi.status_code!=200:
-            print(f"IpInfo response: {response}", "Status code:", response.status_code)
+            print(f"Ip-API response: {response}", "Status code:", response.status_code)
 
     except rq.ConnectionError:
         print("Connection Error. Check your internet connection and try again.")
